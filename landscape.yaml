@@ -1,433 +1,64 @@
-twitter: https://twitter.com/TarsCloud
-            crunchbase: https://www.crunchbase.com/organization/linux-foundation
-      - subcategory:
-        name: Service Proxy
-        items:
-          - item:
-            name: Avi Networks
-            description: Avi Networks drives automation and intelligence across multi-cloud environments with intent-based application services, including LB and WAF
-            homepage_url: https://avinetworks.com/
-            logo: avi-networks.svg
-            twitter: https://twitter.com/AviNetworks
-            crunchbase: https://www.crunchbase.com/organization/vmware
-          - item:
-            name: BFE
-            description: Open-source layer 7 load balancer derived from proprietary Baidu FrontEnd
-            homepage_url: https://github.com/bfenetworks/bfe
-            project: sandbox
-            repo_url: https://github.com/bfenetworks/bfe
-            logo: bfe.svg
-            twitter: https://twitter.com/BfeNetworks
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            extra:
-              accepted: '2020-06-23'
-              dev_stats_url: https://bfe.devstats.cncf.io/
-              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#bfe-logos
-          - item:
-            name: Citrix ADC (formerly NetScaler ADC)
-            description: >-
-              Citrix ADC is an application delivery and load balancing solution that provides a high-quality user experience for your web, traditional, and
-              cloud-native applications regardless of where they are hosted.
-            homepage_url: https://www.citrix.com/products/citrix-adc/
-            logo: citrix.svg
-            twitter: https://twitter.com/CitrixADC
-            crunchbase: https://www.crunchbase.com/organization/citrix-systems
-          - item:
-            name: Contour
-            homepage_url: https://projectcontour.io
-            project: incubating
-            repo_url: https://github.com/projectcontour/contour
-            logo: project-contour.svg
-            twitter: https://twitter.com/projectcontour
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            extra:
-              accepted: '2020-07-07'
-              dev_stats_url: https://contour.devstats.cncf.io/
-          - item:
-            name: Envoy
-            homepage_url: https://www.envoyproxy.io
-            project: graduated
-            repo_url: https://github.com/envoyproxy/envoy
-            logo: envoy.svg
-            twitter: https://twitter.com/envoyproxy
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            extra:
-              accepted: '2017-09-13'
-              dev_stats_url: https://envoy.devstats.cncf.io/
-              artwork_url: https://github.com/cncf/artwork/blob/master/examples/graduated.md#envoy-logos
-              stack_overflow_url: https://stackoverflow.com/questions/tagged/envoyproxy
-              slack_url: http://envoyslack.cncf.io/
-          - item:
-            name: F5
-            homepage_url: https://www.f5.com/
-            logo: f5.svg
-            twitter: https://twitter.com/F5
-            crunchbase: https://www.crunchbase.com/organization/f5-networks
-          - item:
-            name: Gimbal
-            homepage_url: https://github.com/projectcontour/gimbal
-            repo_url: https://github.com/projectcontour/gimbal
-            logo: project-gimbal.svg
-            twitter: https://twitter.com/projectgimbal
-            crunchbase: https://www.crunchbase.com/organization/vmware
-          - item:
-            name: HAProxy
-            homepage_url: https://www.haproxy.com/
-            repo_url: https://github.com/haproxy/haproxy
-            logo: haproxy.svg
-            crunchbase: https://www.crunchbase.com/organization/haproxy-technologies
-          - item:
-            name: Inlets
-            homepage_url: https://docs.inlets.dev
-            repo_url: https://github.com/inlets/inlets-archived
-            logo: inlets.svg
-            twitter: https://twitter.com/inletsdev
-            crunchbase: https://www.crunchbase.com/organization/openfaas
-          - item:
-            name: MetalLB
-            homepage_url: https://metallb.universe.tf
-            repo_url: https://github.com/metallb/metallb
-            logo: metallb.svg
-            twitter: https://twitter.com/dave_universetf
-            crunchbase: https://www.crunchbase.com/organization/metallb
-          - item:
-            name: MOSN
-            homepage_url: https://mosn.io
-            repo_url: https://github.com/mosn/mosn
-            logo: mosn-mosn.svg
-            twitter: null
-            crunchbase: https://www.crunchbase.com/organization/ant-financial
-          - item:
-            name: Netflix Zuul
-            homepage_url: https://github.com/Netflix/zuul
-            repo_url: https://github.com/Netflix/zuul
-            logo: netflix-oss-zuul.svg
-            twitter: https://twitter.com/netflixoss
-            crunchbase: https://www.crunchbase.com/organization/netflix
-          - item:
-            name: NGINX
-            homepage_url: https://www.nginx.com/
-            repo_url: https://github.com/nginx/nginx
-            logo: nginx.svg
-            crunchbase: https://www.crunchbase.com/organization/nginx
-          - item:
-            name: OpenResty
-            homepage_url: https://openresty.com/en/
-            repo_url: https://github.com/openresty/openresty
-            logo: openresty.svg
-            crunchbase: https://www.crunchbase.com/organization/openresty
-          - item:
-            name: Porter LB
-            homepage_url: https://porterlb.io
-            repo_url: https://github.com/kubesphere/openelb
-            logo: porter.svg
-            twitter: https://twitter.com/kubesphere
-            crunchbase: https://www.crunchbase.com/organization/qingcloud
-          - item:
-            name: Skipper
-            homepage_url: https://opensource.zalando.com/skipper/
-            repo_url: https://github.com/zalando/skipper
-            logo: skipper.svg
-            twitter: https://twitter.com/ZalandoTech
-            crunchbase: https://www.crunchbase.com/organization/zalando
-          - item:
-            name: Snapt Nova
-            homepage_url: https://www.snapt.net/platforms/nova-adc
-            logo: nova.svg
-            twitter: https://twitter.com/SnaptADC
-            crunchbase: https://www.crunchbase.com/organization/snapt
-          - item:
-            name: Tengine
-            homepage_url: https://tengine.taobao.org/
-            repo_url: https://github.com/alibaba/tengine
-            logo: alibaba-tengine.svg
-            twitter: https://twitter.com/AlibabaTengine
-            crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
-          - item:
-            name: Traefik
-            homepage_url: https://traefik.io/traefik
-            repo_url: https://github.com/traefik/traefik
-            logo: traefik.svg
-            crunchbase: https://www.crunchbase.com/organization/containous
-      - subcategory:
-        name: API Gateway
-        items:
-          - item:
-            name: 3Scale
-            homepage_url: https://www.3scale.net/
-            repo_url: https://github.com/3scale/apicast
-            logo: 3-scale.svg
-            twitter: https://twitter.com/3scale
-            crunchbase: https://www.crunchbase.com/organization/red-hat
-          - item:
-            name: Akana
-            homepage_url: https://www.akana.com/
-            logo: akana.svg
-            twitter: https://twitter.com/akanaapi
-            crunchbase: https://www.crunchbase.com/organization/akana
-            joined: '2021-01-31'
-          - item:
-            name: APIOAK
-            homepage_url: https://apioak.com/
-            repo_url: https://github.com/apioak/apioak
-            logo: apioak.svg
-            crunchbase: https://www.crunchbase.com/organization/apioak
-          - item:
-            name: APISIX
-            homepage_url: https://apisix.apache.org/
-            repo_url: https://github.com/apache/apisix
-            logo: apisix.svg
-            twitter: https://twitter.com/ApacheAPISIX
-            crunchbase: https://www.crunchbase.com/organization/apache
-          - item:
-            name: Easegress
-            homepage_url: https://megaease.com/easegress
-            repo_url: https://github.com/megaease/easegress
-            logo: easegress.svg
-            twitter: https://twitter.com/megaease
-            crunchbase: https://www.crunchbase.com/organization/megaease-inc
-          - item:
-            name: Emissary-Ingress
-            homepage_url: https://www.getambassador.io/
-            project: incubating
-            repo_url: https://github.com/emissary-ingress/emissary
-            logo: emissary-ingress.svg
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            extra:
-              accepted: '2021-03-26'
-              dev_stats_url: https://emissaryingress.devstats.cncf.io/
-              artwork_url: https://github.com/cncf/artwork/tree/master/projects/emissary-ingress
-          - item:
-            name: EnRoute OneStep Ingress
-            homepage_url: https://www.getenroute.io
-            repo_url: https://github.com/saarasio/enroute
-            logo: saaras.svg
-            crunchbase: https://www.crunchbase.com/organization/saaras
-          - item:
-            name: Gloo
-            homepage_url: https://www.solo.io
-            repo_url: https://github.com/solo-io/gloo
-            logo: gloo.svg
-            crunchbase: https://www.crunchbase.com/organization/solo-io
-          - item:
-            name: Gravitee.io
-            homepage_url: https://gravitee.io
-            repo_url: https://github.com/gravitee-io/gravitee-gateway
-            logo: gravitee.svg
-            crunchbase: https://www.crunchbase.com/organization/gravitee-io
-          - item:
-            name: Kong
-            homepage_url: https://konghq.com/
-            repo_url: https://github.com/Kong/kong
-            logo: kong.svg
-            crunchbase: https://www.crunchbase.com/organization/konghq
-          - item:
-            name: KrakenD
-            homepage_url: https://www.krakend.io/
-            repo_url: https://github.com/luraproject/lura
-            logo: krakend.svg
-            twitter: https://twitter.com/devopsfaith
-            crunchbase: https://www.crunchbase.com/organization/brutale
-          - item:
-            name: MuleSoft
-            homepage_url: https://www.mulesoft.com/
-            repo_url: https://github.com/mulesoft/mule
-            logo: mulesoft.svg
-            twitter: https://twitter.com/mulesoft
-            crunchbase: https://www.crunchbase.com/organization/salesforce
-          - item:
-            name: Reactive Interaction Gateway
-            homepage_url: https://accenture.github.io/reactive-interaction-gateway/
-            repo_url: https://github.com/accenture/reactive-interaction-gateway
-            logo: reactive-interaction-gateway.svg
-            crunchbase: https://www.crunchbase.com/organization/accenture
-          - item:
-            name: Sentinel
-            homepage_url: https://github.com/alibaba/Sentinel
-            repo_url: https://github.com/alibaba/Sentinel
-            logo: sentinel.svg
-            crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
-          - item:
-            name: Tyk
-            homepage_url: https://tyk.io/
-            repo_url: https://github.com/TykTechnologies/tyk
-            logo: tyk.svg
-            crunchbase: https://www.crunchbase.com/organization/tyk-io
-          - item:
-            name: WSO2 API Microgateway
-            homepage_url: https://wso2.com/api-manager/api-microgateway
-            repo_url: https://github.com/wso2/product-microgateway
-            logo: wso2.svg
-            crunchbase: https://www.crunchbase.com/organization/wso2
-      - subcategory:
-        name: Service Mesh
-        items:
-          - item:
-            name: AWS App Mesh
-            description: >-
-              AWS App Mesh is a service mesh that provides application-level networking to make it easy for your services to communicate with each other across
-              multiple types of compute infrastructure. App Mesh standardizes how your services communicate, giving you end-to-end visibility and ensuring
-              high-availability for your applications.
-            homepage_url: https://aws.amazon.com/app-mesh/
-            logo: aws-app-mesh.svg
-            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
-          - item:
-            name: Consul
-            homepage_url: https://www.consul.io/
-            repo_url: https://github.com/hashicorp/consul
-            logo: consul.svg
-            crunchbase: https://www.crunchbase.com/organization/hashicorp
-          - item:
-            name: EaseMesh
-            homepage_url: https://megaease.com/easemesh
-            repo_url: https://github.com/megaease/easemesh
-            logo: easemesh.svg
-            twitter: https://twitter.com/megaease
-            crunchbase: https://www.crunchbase.com/organization/megaease-inc
-          - item:
-            name: Glasnostic
-            description: Glasnostic makes modern cloud applications resilient by shaping how systems interact, automatically and in real-time.
-            homepage_url: https://glasnostic.com/
-            logo: glasnostic.svg
-            crunchbase: https://www.crunchbase.com/organization/glasnostic
-          - item:
-            name: Gloo Mesh
-            homepage_url: https://docs.solo.io/gloo-mesh-enterprise/latest
-            repo_url: https://github.com/solo-io/gloo-mesh
-            logo: gloomesh.svg
-            crunchbase: https://www.crunchbase.com/organization/solo-io
-          - item:
-            name: Grey Matter
-            homepage_url: https://greymatter.io
-            logo: grey-matter.svg
-            crunchbase: https://www.crunchbase.com/organization/decipher-technology-studios
-          - item:
-            name: Istio
-            homepage_url: https://istio.io/
-            repo_url: https://github.com/istio/istio
-            logo: istio.svg
-            twitter: https://twitter.com/IstioMesh
-            crunchbase: https://www.crunchbase.com/organization/google
-          - item:
-            name: Kuma
-            homepage_url: https://kuma.io
-            project: sandbox
-            repo_url: https://github.com/kumahq/kuma
-            logo: kuma-stacked-color.svg
-            twitter: https://twitter.com/KumaMesh
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            extra:
-              accepted: '2020-06-23'
-              dev_stats_url: https://kuma.devstats.cncf.io/
-          - item:
-            name: Linkerd
-            homepage_url: https://linkerd.io/
-            project: graduated
-            repo_url: https://github.com/linkerd/linkerd2
-            logo: linkerd.svg
-            twitter: https://twitter.com/linkerd
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            extra:
-              accepted: '2017-01-23'
-              dev_stats_url: https://linkerd.devstats.cncf.io/
-              artwork_url: https://github.com/cncf/artwork/blob/master/examples/incubating.md#linkerd-logos
-              stack_overflow_url: https://stackoverflow.com/questions/tagged/linkerd
-              blog_url: https://blog.linkerd.io/
-              slack_url: https://slack.linkerd.io/
-              youtube_url: https://www.youtube.com/watch?v=wBgBwNZo_EE&list=PLI9FkLPXDscDB0gevkhEnyfgIfWF5yk4V
-          - item:
-            name: Meshery
-            homepage_url: https://meshery.io
-            project: sandbox
-            repo_url: https://github.com/meshery/meshery
-            logo: meshery.svg
-            twitter: https://twitter.com/mesheryio
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            extra:
-              dev_stats_url: https://meshery.devstats.cncf.io/
-              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#meshery-logos
-              blog_url: https://meshery.io/blog/
-              slack_url: https://cloud-native.slack.com/messages/meshery
-              mailing_list_url: https://groups.google.com/a/meshery.dev/g/community
-              youtube_url: https://www.youtube.com/playlist?list=PL3A-A6hPO2INr4oEIorJqC8N0FtxnYj0a
-          - item:
-            name: Open Service Mesh
-            homepage_url: https://openservicemesh.io/
-            project: sandbox
-            repo_url: https://github.com/openservicemesh/osm
-            logo: open-service-mesh.svg
-            twitter: https://twitter.com/openservicemesh
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            extra:
-              dev_stats_url: https://openservicemesh.devstats.cncf.io/
-              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#open-service-mesh-logos
-              blog_url: https://openservicemesh.io/blog/
-              mailing_list_url: https://groups.google.com/g/openservicemesh
-              slack_url: https://cloud-native.slack.com/messages/openservicemesh
-          - item:
-            name: Service Mesh Interface (SMI)
-            homepage_url: https://smi-spec.io
-            project: sandbox
-            repo_url: https://github.com/servicemeshinterface/smi-spec
-            logo: service-mesh-interface.svg
-            twitter: https://twitter.com/smi_spec
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-          - item:
-            name: Service Mesh Performance
-            homepage_url: https://smp-spec.io/
-            project: sandbox
-            repo_url: https://github.com/service-mesh-performance/service-mesh-performance
-            logo: service-mesh-performance.svg
-            twitter: https://twitter.com/smp_spec
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            extra:
-              dev_stats_url: https://smp.devstats.cncf.io/
-              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#service-mesh-performance-logos
-              slack_url: https://cloud-native.slack.com/messages/service-mesh-performance
-              mailing_list_url: https://groups.google.com/a/smp-spec.io/g/community
-          - item:
-            name: Traefik Mesh
-            homepage_url: https://traefik.io/traefik-mesh
-            repo_url: https://github.com/traefik/mesh
-            logo: traefik-mesh.svg
-            crunchbase: https://www.crunchbase.com/organization/containous
-            extra:
-              accepted: '2020-03-16'
-              dev_stats_url: https://smi.devstats.cncf.io/
-              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#service-mesh-interface-logos
-              blog_url: https://smi-spec.io/blog/
-              slack_url: https://cloud-native.slack.com/messages/smi
-              youtube_url: https://www.youtube.com/playlist?list=PLj6h78yzYM2N5upvsCMVbct4WSrKJo49p
+landscape:
   - category:
-    name: App Definition and Development
+    name: Provisioning
     subcategories:
       - subcategory:
-        name: Database
+        name: Automation & Configuration
         items:
           - item:
-            name: Apache CarbonData
-            homepage_url: https://carbondata.apache.org/
-            repo_url: https://github.com/apache/carbondata
-            logo: carbondata.svg
-            twitter: https://twitter.com/ApacheCarbonDat
-            crunchbase: https://www.crunchbase.com/organization/apache
+            name: Airship
+            homepage_url: https://www.airshipit.org/
+            repo_url: https://github.com/airshipit/treasuremap
+            logo: airship.svg
+            twitter: https://twitter.com/airshipproject
+            crunchbase: https://www.crunchbase.com/organization/open-infrastructure-foundation
+            - item:
+            name: Akri
+            homepage_url: https://docs.akri.sh
+            project: sandbox
+            repo_url: https://github.com/project-akri/akri
+            logo: akri.svg
+            twitter: https://twitter.com/ProjectAkri
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              accepted: '2021-09-14'
+              dev_stats_url: https://akri.devstats.cncf.io/
+              blog_url: https://medium.com/akri
+              artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#akri-logos
           - item:
-            name: Apache Hadoop
-            homepage_url: https://hadoop.apache.org/
-            repo_url: https://github.com/apache/hadoop
-            logo: apache-hadoop.svg
-            twitter: https://twitter.com/twitterhadoop
-            crunchbase: https://www.crunchbase.com/organization/apache
+            name: Ansible
+            homepage_url: https://www.ansible.com/
+            repo_url: https://github.com/ansible/ansible
+            logo: ansible.svg
+            twitter: https://twitter.com/ansible
+            crunchbase: https://www.crunchbase.com/organization/red-hat
           - item:
-            name: Apache Ignite
-            homepage_url: https://ignite.apache.org
-            repo_url: https://github.com/apache/ignite
-            logo: apache-ignite.svg
-            twitter: https://twitter.com/ApacheIgnite
-            crunchbase: https://www.crunchbase.com/organization/apache
+            name: Apollo
+            description: Apollo is a reliable open-source configuration management system
+            homepage_url: https://github.com/apolloconfig/apollo
+            repo_url: https://github.com/apolloconfig/apollo
+            logo: apollo.svg
+            twitter: null
+            crunchbase: https://www.crunchbase.com/organization/ctrip
           - item:
-            name: ArangoDB
-            homepage_url: https://www.arangodb.com/
-            repo_url: https://github.com/arangodb/arangodb
-            logo: arangodb.svg
-            crunchbase: https://www.crunchbase.com/organization/arangodb
+            name: AWS CloudFormation
+            description: AWS CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment.
+            homepage_url: https://aws.amazon.com/cloudformation/
+            logo: aws-cloudformation.svg
+            twitter: https://twitter.com/awscloudformer
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+          - item:
+            name: BOSH
+            homepage_url: https://bosh.io/docs/
+            repo_url: https://github.com/cloudfoundry/bosh
+            logo: cloudfoundry-bosh.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-foundry
+          - item:
+            name: Cadence Workflow
+            description: Cadence is a distributed, scalable, durable, and highly available fault-oblivious stateful code platform.
+            homepage_url: https://cadenceworkflow.io/
+            repo_url: https://github.com/uber/cadence
+            logo: cadenceworkflow.svg
+            twitter: https://twitter.com/UberEng
+            crunchbase: https://www.crunchbase.com/organization/uber
+     
